@@ -78,7 +78,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="./images/buntzenLake.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title" id="firstHike">Buntzen Lake Trail</h5>
+                    <h5 class="card-title" id="firstHike"></h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Read more</a>
                 </div>
@@ -178,7 +178,7 @@ function writeHikes() {
             length_time: "3h 20m"
         });
     }
-    writeHikes();
+    
 
     function displayHikes() {
            db.collection("Hikes").get()
